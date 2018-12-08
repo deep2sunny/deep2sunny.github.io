@@ -1,0 +1,238 @@
+*{
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+body {
+    margin-top: 5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff;
+}
+
+.navbar .nav-item{
+    font-size: 1.4rem;
+    padding-right: 1.3rem;
+  }
+  #showcase {
+  position: relative;
+  background: url("../img/mountains.jpg");
+  min-height: 40%;
+  height:25rem;
+}
+
+#showcase .primary-overlay{
+  background: rgba(50, 146, 166, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+.imgholder{
+  margin-top: 5rem;
+  margin-left: 7rem;
+  border-radius: 50%;
+  width:44%;
+  height:15rem;
+  background: url("../img/myimage.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.text-heading::before{
+  content: open-quote;
+  font-size: 1.3em;
+
+}
+
+.text-heading::after{
+  content: close-quote;
+  font-size: 1.3em;
+
+}
+
+.para-text{
+  line-height: 1.5;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+i.fab {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #3292a6;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+  font-size: 4rem;
+  color: white;
+}
+
+i.fas {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #3292a6;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+  font-size: 4rem;
+  color: white;
+  margin-left: 2rem;
+}
+
+
+.skills{
+  margin-top: 6rem;
+}
+
+.css3{
+  margin-top:5rem;
+}
+
+.fa-css3-alt{
+  margin-left:2rem;
+}
+
+.sass{
+  margin-top:5rem;
+}
+
+i.fa-sass{
+  padding: 0.55em 0.45em;
+  font-size: 4rem;
+  color: white;
+}
+
+.mysql{
+  margin-top:5rem;
+}
+
+.python{
+  margin-top:5rem;
+}
+
+.fa-python{
+  margin-left: 2rem;
+}
+
+.javascript{
+  margin-top:5rem;
+}
+
+footer{
+  margin-top:6rem;
+  background: rgba(50, 146, 166, 0.8);
+}
+
+i.fab.foot {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.4em 0.6em;
+  font-size: 2rem;
+  color: #3292a6;
+  margin-top:0.8rem;
+}
+
+i.fab.foot1{
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.42em 0.47em;
+  font-size: 2rem;
+  text-align:center;
+  color: #3292a6;
+  margin-top:0.8rem;
+}
+
+i.fab.foot2{
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.42em 0.45em;
+  font-size: 2rem;
+  text-align:center;
+  color: #3292a6;
+  margin-top:0.8rem;
+}
+
+
+
+.foot-cont{
+  padding:0.2rem;
+}
+
+@media only screen and (max-width: 576px)
+{
+    body{
+      margin-top:4.6rem;
+    }
+    .imgholder{
+      margin-top: 3rem;
+      margin-left: 8rem;
+      border-radius: 50%;
+      width:47%;
+      height:15rem;
+    }
+    .display-4{
+      font-size:2.5rem;
+      margin-left:5.5rem;
+    }
+    .section-text{
+      font-size:2rem;
+      margin-top:3rem;
+    }
+    .skills{
+      margin-top: 5rem;
+    }
+    i.fab {
+      font-size: 7rem;
+    }
+    i.fas {
+      font-size: 7rem;
+    }
+    .icon1{
+      margin-left: 8rem;
+    }
+    .icon2{
+      margin-left: 5.7rem;
+    }
+    .icon3{
+      margin-left: 6.3rem;
+    }
+    .icon4{
+      margin-left: 5rem;
+    }
+    .icon5{
+      margin-left: 6.7rem;
+    }
+    .icon6{
+      margin-left: 4.5rem;
+    }
+    .para-text{
+      margin-top:3rem;
+    }
+    .fa-facebook-f{
+      margin-left:-6rem;
+    }
+
+    .fa-linkedin-in{
+      margin-left:-1rem;
+    }
+
+    .fa-github{
+      margin-left:4rem;
+    }
+
+}

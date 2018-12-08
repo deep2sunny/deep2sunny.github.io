@@ -1,0 +1,28 @@
+.mycontact{
+  width:80%;
+  margin: 0 auto;
+}
+
+i.fa-user{
+  font-size: 1.2rem;
+  margin:0;
+}
+
+i.fa-envelope{
+  font-size: 1.2rem;
+  margin-left:-0.2rem;
+}
+
+i.fa-mobile{
+  font-size: 1.25rem;
+  margin-left:0.25rem;
+}
+
+i.fa-pen{
+  font-size: 1.1rem;
+  margin-left:0.1rem;
+}
+
+textarea{
+  resize: none;
+}
