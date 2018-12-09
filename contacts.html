@@ -70,22 +70,22 @@
         </div>
       </div>
       <section class="section-form">
-        <form>
+        <form action="https://formspree.io/deep2sunny@gmail.com" method="POST">
           <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter name" required>
+            <input type="text" class="form-control" id="name" name="name" aria-describedby="nameHelp" placeholder="Enter name" required>
           </div>
           <div class="form-group">
             <label for="email">Email</label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Email" required>
+            <input type="email" class="form-control" id="email" name="_replyto" aria-describedby="emailHelp" placeholder="Enter Email" required>
           </div>
           <div class="form-group">
             <label for="phone">Phone</label>
-            <input type="number" class="form-control" id="phone" aria-describedby="phoneHelp" placeholder="Enter Phone Number">
+            <input type="number" class="form-control" id="phone" name="phone" aria-describedby="phoneHelp" placeholder="Enter Phone Number">
           </div>
           <div class="form-group">
             <label for="message">Your Message</label>
-            <textarea name="name" id="message" rows="5" cols="30" class="form-control" placeholder="Message please"></textarea>
+            <textarea name="name" id="message" rows="5" cols="30" name="message" class="form-control" placeholder="Message please"></textarea>
           </div>
           <button type="submit" class="btn btn-primary btn-block form-submit">Submit</button>
         </form>
