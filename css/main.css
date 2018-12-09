@@ -35,12 +35,12 @@ body {
 }
 
 .header-text{
-  font-size:4.8rem;
+  font-size:4.1rem;
   margin-left: -7rem;
 }
 
 .imgholder{
-  margin-top: 4rem;
+  margin-top: 3rem;
   margin-left: 4rem;
   border-radius: 50%;
   width:55%;
@@ -75,7 +75,7 @@ i.fab {
   background-color: #3292a6;
   box-shadow: 0px 0px 2px #888;
   padding: 0.5em 0.6em;
-  font-size: 6rem;
+  font-size: 5rem;
   color: white;
 }
 
@@ -85,7 +85,7 @@ i.fas {
   background-color: #3292a6;
   box-shadow: 0px 0px 2px #888;
   padding: 0.45em 0.55em;
-  font-size: 6rem;
+  font-size: 5rem;
   color: white;
 
 }
@@ -100,7 +100,7 @@ i.fas {
 }
 
 .css3,.sass,.mysql,.python,.javascript{
-  margin-top:5rem;
+  margin-top:6rem;
 }
 
 .icon1,.icon3,.icon5{
@@ -108,8 +108,8 @@ i.fas {
 }
 
 i.fa-sass{
-  padding: 0.55em 0.35em;
-  font-size: 6rem;
+  padding: 0.45em 0.35em;
+  font-size: 5rem;
   color: white;
 }
 
@@ -120,7 +120,7 @@ i.fa-js-square{
 
 
 footer{
-  margin-top:4rem;
+  margin-top:5rem;
   background: rgba(50, 146, 166, 0.8);
 }
 
@@ -261,11 +261,11 @@ i.fab.foot2{
 @media only screen and (min-width: 768px) and (max-width: 992px)
 {
   .imgholder{
-    margin-top: 3rem;
-    margin-left: -5rem;
+    margin-top: 5rem;
+    margin-left: 1rem;
     border-radius: 50%;
-    width:85%;
-    height:18rem;
+    width:65%;
+    height:14rem;
   }
    .header-text{
     margin-top:12rem;
@@ -281,16 +281,16 @@ i.fab.foot2{
   }
 
   i.fab {
-    font-size: 4.5rem;
+    font-size: 4.0rem;
   }
 
   i.fas {
-    font-size: 4.5rem;
+    font-size: 4.0rem;
   }
 
 
   i.fa-sass{
-    font-size: 4.5rem;
+    font-size: 4.0rem;
   }
 
   i.fa-js-square{
