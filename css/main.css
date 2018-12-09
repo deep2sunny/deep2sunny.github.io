@@ -35,7 +35,7 @@ body {
 }
 
 .header-text{
-  font-size:5rem;
+  font-size:4.8rem;
   margin-left: -7rem;
 }
 
@@ -61,7 +61,6 @@ body {
 .section-text::after{
   content: close-quote;
   font-size: 1.3em;
-
 }
 
 .para-text{

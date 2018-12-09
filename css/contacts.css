@@ -1,28 +1,57 @@
-.mycontact{
+.section-contact{
   width:80%;
   margin: 0 auto;
 }
 
-i.fa-user{
-  font-size: 1.2rem;
-  margin:0;
+.section-form{
+  margin-top: 3rem;
 }
 
-i.fa-envelope{
-  font-size: 1.2rem;
-  margin-left:-0.2rem;
+form {
+  max-width: 80%;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
 }
 
-i.fa-mobile{
-  font-size: 1.25rem;
-  margin-left:0.25rem;
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea{
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
 }
 
-i.fa-pen{
-  font-size: 1.1rem;
-  margin-left:0.1rem;
+button.form-submit  {
+  margin-bottom: 1rem;
+}
+
+label{
+  font-size:1.5rem;
 }
 
 textarea{
   resize: none;
+}
+
+@media only screen and (max-width: 576px)
+{
+  form{
+    max-width: 100%;
+  }
+  .section-contact{
+    width: 100%;
+  }
 }
