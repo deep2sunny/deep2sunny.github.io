@@ -34,28 +34,33 @@ body {
   height: 100%;
 }
 
-
+.head-text{
+  font-size:5rem;
+  margin-left: -7rem;
+}
 
 
 
 .imgholder{
-  margin-top: 5rem;
-  margin-left: 7rem;
+  margin-top: 4rem;
+  margin-left: 4rem;
   border-radius: 50%;
-  width:44%;
-  height:15rem;
+  width:55%;
+  height:18rem;
   background: url("../img/myimage1.jpg");
   background-size: cover;
   background-position: center center;
 }
-
-.text-heading::before{
+.section-text{
+  font-size: 3rem;
+}
+.section-text::before{
   content: open-quote;
   font-size: 1.3em;
 
 }
 
-.text-heading::after{
+.section-text::after{
   content: close-quote;
   font-size: 1.3em;
 
@@ -63,7 +68,7 @@ body {
 
 .para-text{
   line-height: 1.5;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
@@ -73,7 +78,7 @@ i.fab {
   background-color: #3292a6;
   box-shadow: 0px 0px 2px #888;
   padding: 0.5em 0.6em;
-  font-size: 4rem;
+  font-size: 6rem;
   color: white;
 }
 
@@ -82,53 +87,43 @@ i.fas {
   border-radius: 50%;
   background-color: #3292a6;
   box-shadow: 0px 0px 2px #888;
-  padding: 0.5em 0.6em;
-  font-size: 4rem;
+  padding: 0.45em 0.55em;
+  font-size: 6rem;
   color: white;
-  margin-left: 2rem;
+
 }
 
+.myskills{
+  width: 80%;
+  margin: 0 auto;
+}
 
 .skills{
   margin-top: 6rem;
 }
 
-.css3{
+.css3,.sass,.mysql,.python,.javascript{
   margin-top:5rem;
 }
 
-.fa-css3-alt{
-  margin-left:2rem;
-}
-
-.sass{
-  margin-top:5rem;
+.icon1,.icon3,.icon5{
+  margin-left:-2rem;
 }
 
 i.fa-sass{
-  padding: 0.55em 0.45em;
-  font-size: 4rem;
+  padding: 0.55em 0.35em;
+  font-size: 6rem;
   color: white;
 }
 
-.mysql{
-  margin-top:5rem;
+i.fa-js-square{
+  padding: 0.55em 0.55em;
 }
 
-.python{
-  margin-top:5rem;
-}
 
-.fa-python{
-  margin-left: 2rem;
-}
-
-.javascript{
-  margin-top:5rem;
-}
 
 footer{
-  margin-top:6rem;
+  margin-top:4rem;
   background: rgba(50, 146, 166, 0.8);
 }
 
@@ -170,7 +165,7 @@ i.fab.foot2{
 
 
 .foot-cont{
-  padding:0.2rem;
+  padding:0.5rem;
 }
 
 @media only screen and (max-width: 576px)
@@ -185,7 +180,7 @@ i.fab.foot2{
       width:65%;
       height:14rem;
     }
-    .display-4{
+    .head-text{
       font-size:2.3rem;
       margin-left:1.2rem;
     }
@@ -222,6 +217,7 @@ i.fab.foot2{
     }
     .para-text{
       margin-top:3rem;
+      font-weight: 400;
     }
     .fa-facebook-f{
       margin-left:-6rem;
@@ -234,5 +230,102 @@ i.fab.foot2{
     .fa-github{
       margin-left:4rem;
     }
+}
 
+@media only screen and (min-width: 576px) and (max-width: 768px)
+{
+  /* body{
+    background-color: red;
+  } */
+  .imgholder{
+    margin-top: 5rem;
+    margin-left: -5rem;
+    border-radius: 50%;
+    width:85%;
+    height:13rem;
+  }
+   .head-text{
+    font-size:2.5rem;
+    margin-left:-6rem;
+  }
+  .para-text{
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .section-text{
+    font-size:2.3rem;
+  }
+
+  i.fab {
+    font-size: 3.5rem;
+  }
+
+  i.fas {
+    font-size: 3.5rem;
+  }
+  i.fa-sass{
+    font-size: 3.5rem;
+  }
+  .fa-facebook-f{
+    margin-left:-5rem;
+  }
+
+  .fa-linkedin-in{
+    margin-left:-1rem;
+  }
+
+  .fa-github{
+    margin-left:3rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+  .imgholder{
+    margin-top: 3rem;
+    margin-left: -5rem;
+    border-radius: 50%;
+    width:85%;
+    height:18rem;
+  }
+   .head-text{
+    margin-top:12rem;
+    font-size:3.2rem;
+    margin-left:-6rem;
+  }
+  .para-text{
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .section-text{
+    font-size:2.5rem;
+  }
+
+  i.fab {
+    font-size: 4.5rem;
+  }
+
+  i.fas {
+    font-size: 4.5rem;
+  }
+
+
+  i.fa-sass{
+    font-size: 4.5rem;
+  }
+
+  i.fa-js-square{
+    padding: 0.55em 0.55em;
+  }
+  .fa-facebook-f{
+    margin-left:-5rem;
+  }
+
+  .fa-linkedin-in{
+    margin-left:-1rem;
+  }
+
+  .fa-github{
+    margin-left:3rem;
+  }
 }
