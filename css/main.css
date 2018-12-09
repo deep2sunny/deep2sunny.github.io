@@ -185,39 +185,23 @@ i.fab.foot2{
       margin-left:1.2rem;
     }
     .section-text{
-      font-size:1.8rem;
+      font-size:2.3rem;
       margin-top:3rem;
     }
     .skills{
       margin-top: 5rem;
     }
-    i.fab {
-      font-size: 7rem;
+    i.fab,i.fas {
+      font-size: 6rem;
     }
-    i.fas {
-      font-size: 7rem;
+    .icon1,.icon3,.icon4,.icon2,.icon5,.icon6{
+      margin-left: 2rem;
     }
-    .icon1{
-      margin-left: 4rem;
-    }
-    .icon2{
-      margin-left: 1.7rem;
-    }
-    .icon3{
-      margin-left: 3rem;
-    }
-    .icon4{
-      margin-left: 1.5rem;
-    }
-    .icon5{
-      margin-left: 3.5rem;
-    }
-    .icon6{
-      margin-left: 1.2rem;
-    }
+
     .para-text{
       margin-top:3rem;
       font-weight: 400;
+      font-size: 1.2rem;
     }
     .fa-facebook-f{
       margin-left:-6rem;
