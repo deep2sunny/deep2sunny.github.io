@@ -18,7 +18,7 @@ body {
     font-size: 1.4rem;
     padding-right: 1.3rem;
   }
-  #showcase {
+#showcase {
   position: relative;
   background: url("../img/mountains.jpg");
   min-height: 40%;
@@ -34,12 +34,10 @@ body {
   height: 100%;
 }
 
-.head-text{
+.header-text{
   font-size:5rem;
   margin-left: -7rem;
 }
-
-
 
 .imgholder{
   margin-top: 4rem;
@@ -93,12 +91,12 @@ i.fas {
 
 }
 
-.myskills{
+.section-skill{
   width: 80%;
   margin: 0 auto;
 }
 
-.skills{
+.section-course{
   margin-top: 6rem;
 }
 
@@ -161,10 +159,7 @@ i.fab.foot2{
   color: #3292a6;
   margin-top:0.8rem;
 }
-
-
-
-.foot-cont{
+.footer-container{
   padding:0.5rem;
 }
 
@@ -180,22 +175,25 @@ i.fab.foot2{
       width:65%;
       height:14rem;
     }
-    .head-text{
+    .header-text{
       font-size:2.3rem;
-      margin-left:1.2rem;
+      margin-left:1.5rem;
+    }
+    .section-skill{
+      width:100%;
     }
     .section-text{
       font-size:2.3rem;
       margin-top:3rem;
     }
-    .skills{
+    .section-course{
       margin-top: 5rem;
     }
     i.fab,i.fas {
       font-size: 6rem;
     }
     .icon1,.icon3,.icon4,.icon2,.icon5,.icon6{
-      margin-left: 2rem;
+      margin-left: 4.5rem;
     }
 
     .para-text{
@@ -218,9 +216,7 @@ i.fab.foot2{
 
 @media only screen and (min-width: 576px) and (max-width: 768px)
 {
-  /* body{
-    background-color: red;
-  } */
+
   .imgholder{
     margin-top: 5rem;
     margin-left: -5rem;
@@ -228,7 +224,7 @@ i.fab.foot2{
     width:85%;
     height:13rem;
   }
-   .head-text{
+   .header-text{
     font-size:2.5rem;
     margin-left:-6rem;
   }
@@ -272,7 +268,7 @@ i.fab.foot2{
     width:85%;
     height:18rem;
   }
-   .head-text{
+   .header-text{
     margin-top:12rem;
     font-size:3.2rem;
     margin-left:-6rem;
