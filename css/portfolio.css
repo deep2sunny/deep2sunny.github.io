@@ -11,6 +11,12 @@
   margin-top:2rem;
 }
 
+img{
+  background-size: cover;
+  background-position: center center;
+  padding:1rem;
+}
+
 
 @media only screen and (max-width: 576px)
 {
