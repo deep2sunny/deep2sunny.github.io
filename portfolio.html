@@ -5,24 +5,26 @@
     <!--    To ensure proper rendering and touch zooming on mobile devices, add the viewport meta tag, like this:-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Akashdeep Singh">
-    <meta name="description" content="Bootstrap Template">
+    <meta name="description" content="Akashdeep Singh Portfolio">
     <title>Akashdeep Singh Portfolio</title>
     <!-- Latest compiled and minified Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <!--    To overwrite the bootstrap default CSS always link your main.css after bootstrap.min.css-->
+    <!-- Animate.css CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/portfolio.css">
 
 </head>
 
 <body>
+
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-sm navbar-light fixed-top py-3">
     <div class="container">
       <a href="index.html" class="navbar-brand">
-        <h3 class="d-inline align-middle">My Personal Page</h3>
+        <!-- <h3 class="d-inline align-middle">My Personal Page</h3> -->
       </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -30,8 +32,8 @@
           <li class="nav-item">
             <a href="index.html" class="nav-link">Home</a>
           </li>
-          <li class="nav-item">
-            <a href="#portfolio" class="nav-link">Portfolio</a>
+          <li class="nav-item active">
+            <a href="#portfolio" class="nav-link current-active">Portfolio</a>
           </li>
           <li class="nav-item">
             <a href="contacts.html" class="nav-link">Contact</a>
@@ -40,23 +42,25 @@
       </div>
     </div>
   </nav>
+
   <!-- HEADER -->
   <section id="showcase">
     <div class="primary-overlay text-white">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-sm-6 col-md-6">
-            <div class="imgholder">
+            <div class="imgholder animated bounceIn">
             </div>
           </div>
           <div class="col-lg-6 col-sm-6 col-md-6 align-self-center mt-5">
-            <span class="header-text">My Portfolio</span>
+            <span class="header-text animated bounceIn">My Portfolio</span>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- Portfolio Section -->
+
+  <!-- PORTFOLIO SECTION -->
   <section class="section-portfolio">
     <div class="container">
       <div class="row text-center">
@@ -70,7 +74,7 @@
       </div>
       <section class="section-cards">
       <div class="card-deck">
-        <div class="card text-center">
+        <div class="card text-center shadow p-3 mb-5 bg-white rounded animated flipInX delay-1s">
           <img class="card-img-top" src="img/proj1.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">The Moon</h5>
@@ -79,7 +83,7 @@
           </div>
         </div>
         <div class="w-100 d-none d-sm-block d-md-none"></div>
-        <div class="card text-center">
+        <div class="card text-center shadow p-3 mb-5 bg-white rounded animated flipInX delay-1s">
           <img class="card-img-top" src="img/proj2.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">CSS Assignment</h5>
@@ -89,8 +93,7 @@
         </div>
         <div class="w-100 d-none d-sm-block d-md-none"></div>
         <div class="w-100 d-none d-md-block d-lg-none"></div>
-
-        <div class="card text-center">
+        <div class="card text-center shadow p-3 mb-5 bg-white rounded animated flipInX delay-1s">
           <img class="card-img-top" src="img/proj3.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Responsive Images</h5>
@@ -100,8 +103,7 @@
         </div>
         <div class="w-100 d-none d-sm-block d-md-none"></div>
         <div class="w-100 d-none d-md-none d-lg-block"></div>
-
-        <div class="card text-center">
+        <div class="card text-center shadow p-3 mb-5 bg-white rounded animated flipInX delay-1s">
           <img class="card-img-top" src="img/proj4.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Travel Form</h5>
@@ -111,7 +113,7 @@
         </div>
         <div class="w-100 d-none d-sm-block d-md-none"></div>
         <div class="w-100 d-none d-md-block d-lg-none"></div>
-        <div class="card text-center">
+        <div class="card text-center shadow p-3 mb-5 bg-white rounded animated flipInX delay-1s">
           <img class="card-img-top" src="img/proj5.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Transform and Animation</h5>
@@ -120,7 +122,7 @@
           </div>
         </div>
         <div class="w-100 d-none d-sm-block d-md-none"></div>
-        <div class="card text-center">
+        <div class="card text-center shadow p-3 mb-5 bg-white rounded animated flipInX delay-1s">
           <img class="card-img-top" src="img/proj6.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">SASS Conversion</h5>
@@ -129,27 +131,26 @@
           </div>
         </div>
       </div>
-
     </section>
     </div>
   </section>
 
-  <!-- Footer -->
+  <!-- FOOTER -->
   <footer id="main-footer" class="text-white">
     <div class="container footer-container">
       <div class="row justify-content-center">
         <div class="col-1">
-          <div>
+          <div data-toggle="tooltip" data-placement="top" title="Facebook">
             <a href="https://www.facebook.com/deep2sunny" target="_blank"><i class="fab fa-facebook-f foot"></i></a>
           </div>
         </div>
         <div class="col-1">
-          <div>
+          <div data-toggle="tooltip" data-placement="top" title="LinkedIn">
             <a href="https://www.linkedin.com/in/akashdeep-singh-150305a7/" target="_blank"><i class="fab fa-linkedin-in foot1"></i></a>
           </div>
         </div>
         <div class="col-1">
-          <div>
+          <div data-toggle="tooltip" data-placement="top" title="GitHub">
             <a href="https://github.com/deep2sunny" target="_blank"><i class="fab fa-github foot2"></i></a>
           </div>
         </div>
@@ -161,8 +162,6 @@
       </div>
     </div>
   </footer>
-
-
     <!-- JavaScript: placed at the end of the document so the pages load faster -->
 
     <!-- jQuery library -->

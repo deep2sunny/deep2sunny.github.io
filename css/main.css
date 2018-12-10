@@ -1,3 +1,13 @@
+/*
+author: Akashdeep Singh;
+filename: main.css;
+Date: 9 December 2018;
+*/
+
+
+/**********************************
+GENERAL
+***********************************/
 *{
   box-sizing: border-box;
   line-height: 1.5;
@@ -5,20 +15,39 @@
 
 body {
     margin-top: 5rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway','Helvetica', sans-serif;
 }
 
-.navbar {
-  box-shadow: 2px 2px 5px #3292a6;
+
+/**********************************
+NAVBAR
+***********************************/
+.navbar{
+  box-shadow: 2px 2px 5px rgb(50,146,166);
   opacity: 0.9;
-  background: #fff;
+  background: rgb(255,255,255);
 }
 
 .navbar .nav-item{
     font-size: 1.4rem;
-    padding-right: 1.3rem;
-  }
-#showcase {
+    margin-left:1rem;
+}
+
+.active{
+  background: rgb(50,146,166);
+  border-radius:5%;
+  padding:-0.8rem;
+
+}
+
+.current-active{
+  color: rgb(255,255,255) !important;
+}
+
+/**********************************
+HEADER
+***********************************/
+#showcase{
   position: relative;
   background: url("../img/mountains.jpg");
   min-height: 40%;
@@ -37,6 +66,7 @@ body {
 .header-text{
   font-size:4.1rem;
   margin-left: -7rem;
+  font-family: 'Merriweather','Times New Roman', serif;
 }
 
 .imgholder{
@@ -49,13 +79,17 @@ body {
   background-size: cover;
   background-position: center center;
 }
+
+/**********************************
+SECTION
+***********************************/
 .section-text{
   font-size: 3rem;
 }
+
 .section-text::before{
   content: open-quote;
   font-size: 1.3em;
-
 }
 
 .section-text::after{
@@ -72,22 +106,21 @@ body {
 i.fab {
   display: inline-block;
   border-radius: 50%;
-  background-color: #3292a6;
-  box-shadow: 0px 0px 2px #888;
+  background-color: rgb(50,146,166);
+  box-shadow: 0px 0px 2px rgb(136,136,136);
   padding: 0.5em 0.6em;
   font-size: 5rem;
-  color: white;
+  color: rgb(255,255,255);
 }
 
 i.fas {
   display: inline-block;
   border-radius: 50%;
-  background-color: #3292a6;
-  box-shadow: 0px 0px 2px #888;
+  background-color: rgb(50,146,166);
+  box-shadow: 0px 0px 2px rgb(136,136,136);
   padding: 0.45em 0.55em;
   font-size: 5rem;
-  color: white;
-
+  color: rgb(255,255,255);
 }
 
 .section-skill{
@@ -110,15 +143,15 @@ i.fas {
 i.fa-sass{
   padding: 0.45em 0.35em;
   font-size: 5rem;
-  color: white;
+  color: rgb(255,255,255);
 }
 
 i.fa-js-square{
   padding: 0.55em 0.55em;
 }
-
-
-
+/**********************************
+FOOTER
+***********************************/
 footer{
   margin-top:5rem;
   background: rgba(50, 146, 166, 0.8);
@@ -127,41 +160,49 @@ footer{
 i.fab.foot {
   display: inline-block;
   border-radius: 50%;
-  background-color: #fff;
-  box-shadow: 0px 0px 2px #888;
+  background-color: rgb(255,255,255);
+  box-shadow: 0px 0px 2px rgb(136,136,136);
   padding: 0.4em 0.6em;
   font-size: 2rem;
-  color: #3292a6;
+  color: rgb(50,146,166);
   margin-top:0.8rem;
 }
 
 i.fab.foot1{
   display: inline-block;
   border-radius: 50%;
-  background-color: #fff;
-  box-shadow: 0px 0px 2px #888;
+  background-color: rgb(255,255,255);
+  box-shadow: 0px 0px 2px rgb(136,136,136);
   padding: 0.42em 0.47em;
   font-size: 2rem;
   text-align:center;
-  color: #3292a6;
+  color: rgb(50,146,166);
   margin-top:0.8rem;
 }
 
 i.fab.foot2{
   display: inline-block;
   border-radius: 50%;
-  background-color: #fff;
-  box-shadow: 0px 0px 2px #888;
+  background-color: rgb(255,255,255);
+  box-shadow: 0px 0px 2px rgb(136,136,136);
   padding: 0.42em 0.45em;
   font-size: 2rem;
   text-align:center;
-  color: #3292a6;
+  color: rgb(50,146,166);
   margin-top:0.8rem;
 }
 .footer-container{
   padding:0.5rem;
 }
 
+i.fab.foot:hover,i.fab.foot1:hover,i.fab.foot2:hover{
+  background-color: rgb(50,146,166);
+  color: rgb(255,255,255);
+}
+
+/**********************************
+MEDIA QUERIES
+***********************************/
 @media only screen and (max-width: 576px)
 {
     body{
@@ -177,6 +218,14 @@ i.fab.foot2{
     .header-text{
       font-size:2.3rem;
       margin-left:1.5rem;
+    }
+    .active{
+      border-radius: 0;
+      background-color:rgb(255,255,255);
+      color: rgb(73,80,87);
+    }
+    .current-active{
+      color: rgb(73,80,87) !important;
     }
     .section-skill{
       width:100%;
@@ -215,7 +264,6 @@ i.fab.foot2{
 
 @media only screen and (min-width: 576px) and (max-width: 768px)
 {
-
   .imgholder{
     margin-top: 5rem;
     margin-left: -5rem;

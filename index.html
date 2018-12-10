@@ -5,29 +5,31 @@
     <!--    To ensure proper rendering and touch zooming on mobile devices, add the viewport meta tag, like this:-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Akashdeep Singh">
-    <meta name="description" content="Bootstrap Template">
+    <meta name="description" content="Akashdeep Singh Portfolio">
     <title>Akashdeep Singh Portfolio</title>
     <!-- Latest compiled and minified Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <!--    To overwrite the bootstrap default CSS always link your main.css after bootstrap.min.css-->
+    <!-- Animate.css CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="css/main.css">
 
 </head>
 
 <body>
+
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-sm navbar-light fixed-top py-3">
     <div class="container">
       <a href="index.html" class="navbar-brand">
-        <h3 class="d-inline align-middle">My Personal Page</h3>
+        <!-- <h3 class="d-inline align-middle">My Personal Page</h3> -->
       </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="#home" class="nav-link">Home</a>
+          <li class="nav-item active">
+            <a href="#home" class="nav-link current-active">Home</a>
           </li>
           <li class="nav-item">
             <a href="portfolio.html" class="nav-link">Portfolio</a>
@@ -39,23 +41,25 @@
       </div>
     </div>
   </nav>
+
   <!-- HEADER -->
   <section id="showcase">
     <div class="primary-overlay text-white">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-sm-6 col-md-6">
-            <div class="imgholder">
+            <div class="imgholder animated bounceIn ">
             </div>
           </div>
           <div class="col-lg-6 col-sm-6 col-md-6 align-self-center mt-5">
-            <span class="header-text">Akashdeep Singh</span>
+            <span class="header-text animated bounceIn">Akashdeep Singh</span>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- Skill section -->
+
+  <!-- SKILL SECTION -->
   <section class="section-skill">
     <div class="container">
       <div class="row text-center">
@@ -68,9 +72,9 @@
         </div>
       </div>
       <section class="section-course">
-        <div class="row html5">
+        <div class="row html5 animated wobble">
           <div class="col-lg-2 col-sm-2 col-xl-2 ">
-            <div class="icon1">
+            <div class="icon1 animated infinite tada delay-1s">
               <i class="fab fa-html5"></i>
             </div>
           </div>
@@ -80,9 +84,9 @@
             </p>
           </div>
         </div>
-        <div class="row css3">
+        <div class="row css3 animated wobble">
           <div class="col-lg-2 col-sm-2 order-sm-2 order-md-2 order-lg-2  ">
-            <div class="icon2">
+            <div class="icon2 animated infinite tada delay-1s">
               <i class="fab fa-css3-alt"></i>
             </div>
           </div>
@@ -92,9 +96,9 @@
             </p>
           </div>
         </div>
-        <div class="row sass">
+        <div class="row sass animated wobble">
           <div class="col-lg-2 col-sm-2">
-            <div class="icon3">
+            <div class="icon3 animated infinite tada delay-1s">
               <i class="fab fa-sass"></i>
             </div>
           </div>
@@ -104,9 +108,9 @@
             </p>
           </div>
         </div>
-        <div class="row mysql">
+        <div class="row mysql animated wobble">
           <div class="col-lg-2 col-sm-2 order-sm-2 order-md-2 order-lg-2">
-            <div class="icon4">
+            <div class="icon4 animated infinite tada delay-1s">
               <i class="fas fa-database"></i>
             </div>
           </div>
@@ -116,9 +120,9 @@
             </p>
           </div>
         </div>
-        <div class="row javascript">
+        <div class="row javascript animated wobble">
           <div class="col-lg-2 col-sm-2">
-            <div class="icon5">
+            <div class="icon5 animated infinite tada delay-1s">
               <i class="fab fa-js-square"></i>
             </div>
           </div>
@@ -128,9 +132,9 @@
             </p>
           </div>
         </div>
-        <div class="row python">
+        <div class="row python animated wobble">
           <div class="col-lg-2 col-sm-2 order-sm-2 order-md-2 order-lg-2">
-            <div class="icon6">
+            <div class="icon6 animated infinite tada delay-1s">
               <i class="fab fa-python"></i>
             </div>
           </div>
@@ -143,22 +147,23 @@
       </section>
     </div>
   </section>
-  <!-- Footer -->
+
+  <!-- FOOTER -->
   <footer id="main-footer" class="text-white">
     <div class="container footer-container">
       <div class="row justify-content-center">
         <div class="col-1">
-          <div>
+          <div data-toggle="tooltip" data-placement="top" title="Facebook">
             <a href="https://www.facebook.com/deep2sunny" target="_blank"><i class="fab fa-facebook-f foot"></i></a>
           </div>
         </div>
         <div class="col-1">
-          <div>
+          <div data-toggle="tooltip" data-placement="top" title="LinkedIn">
             <a href="https://www.linkedin.com/in/akashdeep-singh-150305a7/" target="_blank"><i class="fab fa-linkedin-in foot1"></i></a>
           </div>
         </div>
         <div class="col-1">
-          <div>
+          <div data-toggle="tooltip" data-placement="top" title="GitHub">
             <a href="https://github.com/deep2sunny" target="_blank"><i class="fab fa-github foot2"></i></a>
           </div>
         </div>
@@ -171,9 +176,7 @@
     </div>
   </footer>
 
-
     <!-- JavaScript: placed at the end of the document so the pages load faster -->
-
     <!-- jQuery library -->
     <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js "></script>
     <!-- Popper -->
@@ -182,5 +185,4 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js "></script>
     <script src="js/navbar-fixed.js"></script>
 </body>
-
 </html>

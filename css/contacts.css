@@ -1,3 +1,12 @@
+/*
+author: Akashdeep Singh;
+filename: contacts.css;
+Date: 9 December 2018;
+*/
+
+/**********************************
+CONTACT SECTION
+***********************************/
 .section-contact{
   width:80%;
   margin: 0 auto;
@@ -11,7 +20,7 @@ form {
   max-width: 80%;
   margin: 10px auto;
   padding: 10px 20px;
-  background: #f4f7f8;
+  background: rgb(244,247,248);
   border-radius: 8px;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
 }
@@ -28,8 +37,8 @@ textarea{
   outline: 0;
   padding: 15px;
   width: 100%;
-  background-color: #e8eeef;
-  color: #8a97a0;
+  background-color: rgb(232,238,239);
+  color: rgb(138,151,160);
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
 }
@@ -46,6 +55,9 @@ textarea{
   resize: none;
 }
 
+/**********************************
+MEDIA QUERIES
+***********************************/
 @media only screen and (max-width: 576px)
 {
   form{
