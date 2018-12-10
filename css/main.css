@@ -78,6 +78,7 @@ HEADER
   background: url("../img/myimage1.jpg");
   background-size: cover;
   background-position: center center;
+  border: 3px solid rgb(255,255,255);
 }
 
 /**********************************
@@ -111,6 +112,7 @@ i.fab {
   padding: 0.5em 0.6em;
   font-size: 5rem;
   color: rgb(255,255,255);
+  border: 3px solid rgba(51, 51, 51, 1);
 }
 
 i.fas {
@@ -121,6 +123,7 @@ i.fas {
   padding: 0.45em 0.55em;
   font-size: 5rem;
   color: rgb(255,255,255);
+  border: 3px solid rgba(51, 51, 51, 1);
 }
 
 .section-skill{
@@ -166,6 +169,7 @@ i.fab.foot {
   font-size: 2rem;
   color: rgb(50,146,166);
   margin-top:0.8rem;
+  border:none;
 }
 
 i.fab.foot1{
@@ -178,6 +182,7 @@ i.fab.foot1{
   text-align:center;
   color: rgb(50,146,166);
   margin-top:0.8rem;
+  border:none;
 }
 
 i.fab.foot2{
@@ -190,6 +195,7 @@ i.fab.foot2{
   text-align:center;
   color: rgb(50,146,166);
   margin-top:0.8rem;
+  border:none;
 }
 .footer-container{
   padding:0.5rem;
